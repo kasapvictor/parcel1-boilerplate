@@ -1,0 +1,53 @@
+:root {
+    --color-dark: #030303;
+    --color-white: #fff;
+    --color-ligh: #e5e5e5;
+    --color-error: #710707;
+    --color-second: #9d8665;
+    --color-active: #CAAA7D;
+    --color-fill: #24809E;
+
+    --color-text: var(--color-dark);
+    --color-text-white: var(--color-white);
+    --color-text-active: var(--color-active);
+
+    --color-link-dark: var(--color-text);
+    --color-link-white: var(--color-white);
+    --color-link-hover: var(--color-second);
+    --color-link-active: var(--color-active);
+
+    --color-button: var(--color-error);
+    --color-button-hover: var(--color-second);
+
+    --color-bg-dark: var(--color-dark);
+    --color-bg-second: var(--color-second);
+    --color-bg-error: var(--color-error);
+    --color-bg-white: var(--color-white);
+    --color-bg-fill: var(--color-fill);
+
+    --color-border-dark: var(--color-dark);
+    --color-border-white: var(--color-white);
+    --color-border-error: var(--color-error);
+    --color-border-second: var(--color-second);
+    --color-border-fill: var(--color-fill);
+
+    --font-default: 'Verdana', serif;
+    --font-family-main: 'Roboto', var(--font-default);
+    --font-family-title: 'Forum', var(--font-default);
+
+    --font-size-default: 2.2rem;
+    --font-size-h1: 8rem;
+    --font-size-h3: 3.2rem;
+}
+
+$desktop-x: 1920px;
+$desktop-m: 1440px;
+$desktop-s: 1280px;
+
+$tablet-x: 1024px;
+$tablet-m: 991px;
+$tablet-s: 767px;
+
+$mobile-x: 479px;
+$mobile-m: 375px;
+$mobile-s: 320px;

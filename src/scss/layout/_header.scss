@@ -1,0 +1,69 @@
+.header {
+  position: relative;
+  color: var(--color-text-white);
+  background-color: var(--color-bg-dark);
+  overflow: hidden;
+}
+
+.header__container {
+  position: relative;
+}
+
+.header__top {
+  display: flex;
+  justify-content: space-between;
+  padding: 8rem 0;
+  position: relative;
+  z-index: 30;
+}
+
+.header__logo {
+  display: flex;
+}
+
+.header__logo-name {
+  padding-left: 2rem;
+  text-transform: uppercase;
+  @include font (
+          $size: 2.8rem,
+          $family: var(--font-family-title),
+          $space: .5rem
+  );
+}
+
+.header__inner {
+  display: flex;
+}
+
+.header__left {
+  width: 100%;
+  max-width: 650px;
+  padding-top: 11rem;
+  padding-bottom: 24rem;
+  position: relative;
+  z-index: 20;
+}
+
+.header__subtitle {
+  padding: 2.5rem 0 7.5rem 0;
+  font-size: 2.8rem;
+  letter-spacing: .2rem;
+  font-weight: 300;
+}
+
+.header__right {
+  position: absolute;
+  //width: 62%;
+  width: 100%;
+  max-width: 1215px;
+  //right: 0;
+  right: -16%;
+  bottom: 0;
+  z-index: 10;
+}
+
+.header__img {
+  height: 100%;
+  object-fit: cover;
+}
+

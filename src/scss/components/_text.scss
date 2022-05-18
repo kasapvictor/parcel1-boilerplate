@@ -1,0 +1,32 @@
+.text {
+  @include font(
+          $size: 2.2rem,
+          $family: var(--font-family-main),
+          $height: 1.5,
+          $space: .1rem,
+  );
+}
+
+.text--white {
+  color: var(--color-link-white);
+}
+
+.text--middle {
+  font-size: 2.8rem;
+}
+
+.text--small {
+  font-size: 1.8rem;
+}
+
+.text--right {
+  text-align: right;
+}
+
+.text--semibold {
+  font-weight: 500;
+}
+
+.mark {
+  color: var(--color-text-active);
+}
