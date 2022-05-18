@@ -12,7 +12,8 @@
 @import "layout/columns";
 @import "layout/footer";
 
-// TODO delete .div-img
+// TODO delete
+
 .div-img {
   width: 720px;
 }
@@ -21,4 +22,11 @@
   width: 300px;
   height: 300px;
   background-image: url("../img/video-poster.jpg");
+}
+
+.example {
+  display: grid;
+  transition: all .5s;
+  user-select: none;
+  background: linear-gradient(to bottom, white, black);
 }
