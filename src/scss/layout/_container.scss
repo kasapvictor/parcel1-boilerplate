@@ -1,13 +1,12 @@
 /* common */
 .container {
-    width: 100%;
-    max-width: $desktop-m;
-    margin: 0 auto;
+  width: 100%;
+  max-width: $desktop-m;
+  margin: 0 auto;
 
-    // TEST как работает медиа запрос из миксинов
-    @include media-desktop-m {
-        padding: 0 20px;
-        //border: 5px solid red;
-    }
+  // TEST как работает медиа запрос из миксинов
+  @include media-desktop-m {
+    padding: 0 20px;
+    //border: 5px solid red;
+  }
 }
-

@@ -1,8 +1,12 @@
-async function load() {
-  const page = await import('./pages/about');
-  // Render page
-  page.render();
-}
-load();
+const foo = () => {
+  const d = 3;
+  console.log('INDEX.JS1');
+  return d;
+};
 
-console.log('INDEX.JS');
+const init = () => {
+  const d = foo();
+  console.log(d + 4);
+};
+
+init();

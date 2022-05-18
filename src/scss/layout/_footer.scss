@@ -10,15 +10,10 @@
 .footer__company {
   color: var(--color-text-white);
   text-transform: uppercase;
-  @include font (
-          $size: 2.8rem,
-          $family: var(--font-family-title),
-          $space: .5rem
-  );
+  @include font($size: 2.8rem, $family: var(--font-family-title), $space: 0.5rem);
 }
 
 .footer__col:not(.footer__col:first-child) {
-
 }
 
 .footer__list {

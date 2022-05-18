@@ -24,11 +24,7 @@
 .header__logo-name {
   padding-left: 2rem;
   text-transform: uppercase;
-  @include font (
-          $size: 2.8rem,
-          $family: var(--font-family-title),
-          $space: .5rem
-  );
+  @include font($size: 2.8rem, $family: var(--font-family-title), $space: 0.5rem);
 }
 
 .header__inner {
@@ -47,7 +43,7 @@
 .header__subtitle {
   padding: 2.5rem 0 7.5rem 0;
   font-size: 2.8rem;
-  letter-spacing: .2rem;
+  letter-spacing: 0.2rem;
   font-weight: 300;
 }
 
@@ -66,4 +62,3 @@
   height: 100%;
   object-fit: cover;
 }
-
